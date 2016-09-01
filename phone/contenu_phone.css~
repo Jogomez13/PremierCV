@@ -1,0 +1,23 @@
+/* mon body */
+
+
+#corps {
+
+font-size: 1em;/*taille de la police*/
+
+}
+
+
+img {
+
+width : 30px;
+height : 30px;
+
+}
+
+#formation {
+
+margin-top : 80px;
+
+}
+

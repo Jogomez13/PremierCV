@@ -1,0 +1,27 @@
+/* mon body */
+
+
+#corps {
+
+font-size: 1em;/*taille de la police*/
+
+}
+
+
+/*je rapetissis la taille de mes images pour qu'elles soient plus adaptés aux smartphone */
+
+img {
+
+width : 30px;
+height : 30px;
+
+}
+
+/* je règle le margin-top resserer mon contenu */
+
+#formation {
+
+margin-top : 80px;
+
+}
+

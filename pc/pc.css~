@@ -1,0 +1,118 @@
+/* résolution pour pc */
+
+
+/* mon body */
+body { 
+background-color : #ADD8E6;
+}
+
+#corps {
+background-color : #ADD8E6; /*colore le fond du body*/
+color : black;
+font-weight : bold;
+font-size: 1.5em;/*taille de la police*/
+
+}
+
+
+/* Titre (mon nom) */
+
+#jonathan
+{
+text-align : center; /*cela centre mon titre*/
+border : 2px solid white;
+border-radius: 5px;
+background-color : #0000CD;
+color : #F5F5F5; /*j'arrondi mes box */
+text-shadow: 2px 2px 2px black; /* ombre du texte */
+box-shadow: 2px 2px 2px 2px black;
+margin-top : 130px;
+width : 100%;
+height : 80px;
+}
+
+
+/* navigation */
+
+/* j'ai trouvé le modèle de mon menu nav à cette adresse : http://www.w3schools.com/css/css_navbar.asp */
+
+span {
+color : #000080;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0; /*je regle les marges*/
+    padding: 0;
+    overflow: hidden;
+    background-color: #4169E1;
+display : flex;
+justify-content : space-around; /* pour espacer les noms de mes sections et les aligner (formation etc) */
+box-shadow: 2px 2px 2px 2px black;
+border-radius: 5px;
+margin-top : -250px;
+width : 100%;
+height : 100px;
+}
+
+
+li a {
+    display: block;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 14px 76px; /*pour régler la taille de les cases formations etc*/
+    text-decoration: none;/*j'enleve les puces*/
+text-shadow: 2px 2px 2px black;
+box-shadow: 2px 2px 2px 2px black;
+}
+
+li a:hover {
+    background-color:  #0000CD;/* lors du passage de la souris le lien se colore en bleu foncé*/
+}
+
+li a:active /* Quand on clique sur le lien il s'éclaire en rouge*/
+{
+    background-color: red;
+}
+
+/* Titre de mes sections */
+
+h3 {
+border: 4px solid white; /* définit le contour de mes titres de sections*/
+background-color : #1E90FF;
+box-shadow: 2px 2px 2px black;
+border-radius: 5px;
+}
+
+/* contenu de mes sections */
+
+#formation, #experiences, #competences, #loisirs, #contact {
+background-color : #87CEFA;
+text-shadow: 2px 2px 2px white;
+box-shadow: 2px 2px 2px 2px black;
+border-radius: 5px;
+}
+
+#formation {
+
+margin-top : 150px;
+
+}
+
+img {
+
+width : 50px;
+height 50px;
+
+}
+
+
+.banniere {
+
+box-shadow: 2px 2px 2px 2px black;
+
+width : 100%;
+height : 300px;
+}
+
+ 

@@ -1,0 +1,15 @@
+/* résolution pour tablette */
+
+@import url(tablette/head_tablette.css);
+@import url(tablette/contenu_tablette.css);
+@import url(tablette/navigation_tablette.css);
+
+
+
+
+
+ 
+
+
+
+

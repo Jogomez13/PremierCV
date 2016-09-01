@@ -1,0 +1,19 @@
+/* navigation */
+
+/* j'ai trouvé le modèle de mon menu nav à cette adresse : http://www.w3schools.com/css/css_navbar.asp */
+
+
+.menu {
+
+    background-color : red;
+display : inline;
+}
+
+
+li a {
+
+background-color : red;
+    display: inline;
+ 
+}
+

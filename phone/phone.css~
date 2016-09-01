@@ -1,0 +1,84 @@
+/* résolution pour smartphone */
+
+
+/* mon body */
+body { 
+background-color : white;
+}
+
+#corps {
+background-color : white; /*colore le fond du body*/
+color : black;
+font-size: 1em;/*taille de la police*/
+
+}
+
+
+/* Titre (mon nom) */
+
+#jonathan
+{
+color : black;
+border : 2px solid white;
+background-color : gray;
+text-shadow: 2px 2px 2px white; /* ombre du texte */
+margin-top : 130px;
+
+}
+
+
+/* navigation */
+
+/* j'ai trouvé le modèle de mon menu nav à cette adresse : http://www.w3schools.com/css/css_navbar.asp */
+
+span {
+color : #000080;
+}
+
+.menu {
+
+background-color: gray;
+margin-top : -240px;
+width : 100%;
+height : 80px;
+}
+
+
+li a {
+padding-top: 20px; /*pour régler la taille de les cases formations etc*/
+padding-right : 40px;
+padding-bottom : 20px;
+padding-left : 40px;
+text-decoration: none;/*j'enleve les puces*/
+font-size : 0.6em;
+
+}
+
+
+/* Titre de mes sections */
+
+h3 {
+border: 4px solid black; /* définit le contour de mes titres de sections*/
+background-color : white;
+}
+
+/* contenu de mes sections */
+
+#formation, #experiences, #competences, #loisirs, #contact {
+background-color : gray;
+
+}
+
+img {
+
+width : 30px;
+height 30px;
+
+}
+
+.banniere {
+
+width : 100%;
+height : 200px;
+}
+

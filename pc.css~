@@ -1,0 +1,10 @@
+/* résolution pour pc */
+
+@import url(pc/head_pc.css);
+@import url(pc/contenu_pc.css);
+@import url(pc/navigation_pc.css);
+
+
+
+
+

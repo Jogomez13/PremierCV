@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<meta charset= "utf-8"/>
+	<meta name="viewport" content="width=device-width" /> <!--le navigateur des appareils mobiles comprendra qu'il ne doit pas simuler de largeur d'écran plus grande-->
+
+	<title>CV Jonathan Gomez</title><!--c'est ce qui s'affichera dans la barre d'onglet-->
+
+	<link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+<body>
+
+<div id="corps">
+<header>
+
+<img class="photo de profil" src= "https://www.latoilescoute.net/IMG/arton2296.jpg?1381956840" alt= "photo de profil"></a>
+
+	<h1 id="jonathan">Jonathan Gomez Développeur Web</h1><!--header c'est le titre du site, ce qu'on voit en haut de la page. h1 h2 h3 vont hiérarchiser le site. H1 afficher en grand le contenu de cette balise-->
+</header>
+
+<nav>
+	<ul class="menu">
+		<li><a href="#formation"><h2><span>F</span>ormation</h2></a></li>
+
+<!--cette ligne va me permettre d'aller direct à la catégorie "formation" lorsque je clique sur le lien du menu. Idem pour les autres-->
+
+		<li><a href="#experiences"><h2><span>E</span>xpériences</h2></a></li>
+
+		<li><a href="#competences"><h2><span>C</span>ompétences</h2></a></li>
+
+		<li><a href="#loisirs"><h2><span>L</span>oisirs</h2></a></li>
+
+	</ul>
+</nav>
+
+<!-------Formation---->
+<section id="formation">
+<!-- j'utilise article id = "..." pour chaque article afin de pouvoir classer le contenu en différentes parties ce qui me permettra 		de faire des choses spécifique dans le css en appelant ces balises id-->
+
+	<header><h3>Formation</h3></header>
+		<article>
+		2016 : Formation Développeur Web et Mobile, à Be Web Lunel,by Simplon
+		</article>
+
+		<article>
+		2012 : Obtention du BTS Négociation Relation Client, à RISE Montpellier
+		</article>
+		<article>
+		2010 : Obtention du BAC STG Marketing, à Alphonse Daudet Tarascon
+		</article>
+	<footer></footer>
+</section>
+
+<!-------Expériences Professionnelles---->
+<section id="experiences">
+	<header><h3>Expériences professionnelles</h3></header>
+	
+	<article>D'Avril 2014 jusqu’à Aujourd’hui : Opérateur de réception, contrôle quantitatif et qualitatif du bois.
+FIBRE EXCELLENCE à Tarascon.
+Activité : Production pâte à papier.
+Missions : Accueil physique et téléphonique, saisie informatique, gestion de planning.</article>
+
+<article>Janvier 2014 : Mission d’intérim: Responsable location, LOXAM à Fos sur Mer puis en Arles.
+Activité : Location de matériel pour BTP, Industrie etc.
+Missions : Accueil client, gestion du planning et des réservations, relance téléphonique, mailing, création de contrat.
+</article>
+ 
+<article>De Janvier 2010 à Aoùt 2012 : Attaché commercial en Alternance.
+SOCIETE NOUVELLE MICHEL à Nîmes
+Activité : Commercialisation de fenêtres, stores, volets etc...</article>
+
+De Juillet 2010 à Décembre 2010 : Opérateur de réception, contrôle quantitatif et qualitatif du bois.
+FIBRE EXCELLENCE à Tarascon.
+Activité : Production pâte à papier.
+</article>
+	<footer></footer>
+</section>
+
+<!-------Compétences---->
+<section id= "competences">
+	<header><h3>Compétences</header>
+		<article>
+		Administratives : Rédaction de courrier, accueil physique et téléphonique, réalisation de bons de commandes, classement 		alphanumérique, traitement des commandes.
+		</article>
+
+		<article>
+		Commerciales : Réalisation de projets commerciaux, prospection téléphonique/physique, création d’offres promotionnelles ainsi 			que de fidélisation.
+		</article>
+
+		<article>
+		Anglais : niveau moyen
+		Espagnol : niveau correct, plusieurs séjours en Espagne
+		</article>
+
+		<article>
+		Langages maîtrisés : HTML, CSS...
+		</article>
+
+	<footer></footer>
+</section>
+
+<!-------Loisirs---->
+<section id="loisirs">
+	<header><h3>Loisirs</h3></header>
+	<article>
+	Je pratique le football au sein de l’Entente Graveson. J’aime lire sur les thèmes suivants : Développement personnel,Business, 		Marketing, Influence, Création d’entreprise, Stratégies… etc
+	</article>
+	<footer></footer>
+</section>
+
+<footer id="contact">
+	<h3>Contact</h3>
+	40 Rue de la pountcharade
+	131313 MARS
+	06.15.15.15.15
+	
+
+</br> <!--Pour mettre à la ligne mes icones-->
+
+</footer>
+<!--le contenu qui se trouve dans footer apparait en pied de page-->
+</div>
+
+</body>
+
+</html>

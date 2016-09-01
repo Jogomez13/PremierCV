@@ -1,0 +1,19 @@
+/* résolution pour tablette */
+
+/* je règle la taille de police */
+
+#corps {
+
+font-size: 1.2em;/*taille de la police*/
+
+}
+
+
+/* j'adapte la taille de mes images au format tablette */
+
+img {
+
+width : 30px;
+height : 30px;
+
+}

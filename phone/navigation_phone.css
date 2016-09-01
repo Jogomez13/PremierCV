@@ -1,0 +1,11 @@
+/* navigation */
+
+
+/* je fais disparaître le menu existant qui n'est pas très adapté aux smartphones */
+
+.menu {
+
+display : inline;
+
+}
+

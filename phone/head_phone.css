@@ -1,0 +1,22 @@
+/* résolution pour smartphone */
+
+
+/* Titre (mon nom) */
+
+/* je diminue la taille du texte pour qu'il soit plus adapté aux smartphones */
+
+#jonathan
+{
+font-size : 0,8em;
+margin-top : 80px;
+width : 100%;
+
+}
+
+
+/* je règle la hauteur de mon image qui était trop " grosse " pour les smartphones*/
+
+.banniere {
+
+height : 200px;
+}

@@ -1,0 +1,30 @@
+/* navigation */
+
+/* j'ai trouvé le modèle de mon menu nav à cette adresse : http://www.w3schools.com/css/css_navbar.asp */
+
+
+.menu {
+
+    background-image: url(http://www.pierre-marcus.com/wp-content/uploads/2015/08/fond-gris2.jpg);
+display : inline;
+justify-content : space-around; /* pour espacer les noms de mes sections et les aligner (formation etc) */
+box-shadow: 2px 2px 2px 2px black;
+border-radius: 5px;
+margin-top : -250px; /* pour positionner ma barre nav au dessus de mon titre */
+width : 100%;
+height : 100px;
+}
+
+
+li a {
+
+background-color : red;
+    display: inline;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 14px 76px; /*pour régler la taille de les cases formations etc*/
+    text-decoration: none;/*j'enleve les puces*/
+text-shadow: 2px 2px 2px black;
+box-shadow: 2px 2px 2px 2px black;
+}
+
